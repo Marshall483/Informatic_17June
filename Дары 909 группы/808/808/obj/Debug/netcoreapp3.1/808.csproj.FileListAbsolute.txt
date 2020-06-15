@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\808\808\bin\Debug\netcoreapp3.1\808.exe
+C:\Users\user\source\repos\808\808\bin\Debug\netcoreapp3.1\808.deps.json
+C:\Users\user\source\repos\808\808\bin\Debug\netcoreapp3.1\808.runtimeconfig.json
+C:\Users\user\source\repos\808\808\bin\Debug\netcoreapp3.1\808.runtimeconfig.dev.json
+C:\Users\user\source\repos\808\808\bin\Debug\netcoreapp3.1\808.dll
+C:\Users\user\source\repos\808\808\bin\Debug\netcoreapp3.1\808.pdb
+C:\Users\user\source\repos\808\808\obj\Debug\netcoreapp3.1\808.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\808\808\obj\Debug\netcoreapp3.1\808.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\808\808\obj\Debug\netcoreapp3.1\808.AssemblyInfo.cs
+C:\Users\user\source\repos\808\808\obj\Debug\netcoreapp3.1\808.dll
+C:\Users\user\source\repos\808\808\obj\Debug\netcoreapp3.1\808.pdb
+C:\Users\user\source\repos\808\808\obj\Debug\netcoreapp3.1\808.genruntimeconfig.cache
