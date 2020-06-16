@@ -9,28 +9,35 @@ namespace Temp
     class Program
     {
 
-        static long IncorrectFac(int n) //113
+        static void Loops()
         {
-            int start = 1;
-            long result = 1;
-            if ((n % 2).Equals(1))
-                start = 1;
-            else start = 2;
-
-            while (start <= n)
+            int[] x = new int[101];
+            double sum = 0;
+            x[1] = 1;
+            x[2] = 1;
+            x[3] = 1;
+            for (int i = 1; i <= 100; i++)
             {
-                result = result * start;
-                start += 2;
+                if (i < 4)
+                {
+                    x[i] = 1;
+                }
+                else
+                {
+                    x[1] = 1;
+                    x[2] = 1;
+                    x[3] = 1;
+
+                    x[i] = x[i - 1] + x[i - 3];
+                }
+                sum += (x[i]) / (Math.Pow(2, i));
             }
-            return result;
+
+            Console.WriteLine(sum);
         }
-        static void Main() 
+        static void Main(string[] args)
         {
-
-            IncorrectFac(7);//113
-
-
-            Console.ReadKey();
+            Loops();
         }
 
 
