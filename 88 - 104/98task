@@ -1,0 +1,37 @@
+using System;
+
+namespace _98task
+{
+    class Program
+    {
+        static double FuncA(int k)
+        {
+            if (k.Equals(1)) return 1;
+            return 3 * FuncB(k - 1) + 2 * FuncA(k - 1);
+        }
+
+        static double FuncB(int k)
+        {
+            if (k.Equals(1)) return 1;
+            return 2 * FuncA(k - 1) + FuncB(k - 1);
+        }
+        static void Main()
+        {
+
+            int n = int.Parse(Console.ReadLine());
+
+            if (n < 2) return;
+
+            double result = 0;
+            double fact = 1;
+            for (int i = 2; i < n; i++)
+            {
+                fact *= i;
+                result += Math.Pow(2, i) / ((1 + Math.Pow(FuncA(i), 2) + Math.Pow(FuncB(i), 2)) * fact);
+            }
+
+            Console.WriteLine(result);
+            Console.ReadKey();
+        }
+    }
+}
